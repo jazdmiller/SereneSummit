@@ -1,5 +1,5 @@
 
-body {
+html body {
     background-color: #FBF6EF;
     margin:0;
 }
@@ -13,29 +13,66 @@ nav{
     margin: 0 auto;
 }
 
-ul{
+html ul{
     padding: 0%;
+
 }
-.nav-container{
+.ss-nav-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
-    /* border: 2px blue solid; */
     align-content: center;
     align-items: center;
 }
 
-li{
-    /* border: red 2px solid; */
+a:link{
     font-size: .9em;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #252525;
 }
 
 #nav-logo{
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Gallery Modern', serif;
     text-transform: none;
 }
+
+header {
+    width: 100vw;
+    border-bottom: #252525 1px solid;
+
+}
+
+header .navb-items{
+    width: 100%;
+    height: 68px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+
+}
+
+.nav-container{
+    /* border: 2px solid red; */
+    width: auto;
+}
 /* END HEADER/NAV SECTION */
+
+
+/* HERO SECTION */
+
+.hero-wrapper{
+    /* border: blue 2px solid; */
+}
+
+.hero-container{
+    height: 100px;
+    width: 100px;
+    border: red solid 2px;
+}
+
+/* END HERO SECTION */
