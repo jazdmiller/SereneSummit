@@ -179,8 +179,8 @@ header .navb-items{
 }
 /* HERO SECTION */
 
-.hero-wrapper{
-    /* border: blue 2px solid; */
+.col{
+   border: 1px solid blue;
 }
 
 .hero-container{
@@ -189,4 +189,27 @@ header .navb-items{
     border: red solid 2px;
 }
 
+.hero-header-text{
+    padding-top: 3vw;
+    font-family: 'Classico', serif;
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+
+.hero-body-text{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero-lg-image{
+    width: 500px;
+    height: 600px;
+    margin-top: 2vw;
+}
+
+.hero-lg-image img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
 /* END HERO SECTION */
