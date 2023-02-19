@@ -60,6 +60,10 @@ header .navb-items{
     /* border: 2px solid red; */
     width: auto;
 }
+
+.bars-icon{
+    color: #000;
+}
 /* END HEADER/NAV SECTION */
 
 /* MODAL */
@@ -128,6 +132,8 @@ header .navb-items{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     transition: .4s;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .modal-line:hover{
@@ -152,6 +158,24 @@ header .navb-items{
 
 .modal-line a:hover{
     color: #FBF6EF;
+}
+
+.modal-footer{
+    border-top: #252525 solid 1px !important;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.modal-footer a{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    padding-left: 2%;
+
+}
+
+.modal-footer a:hover{
+ color: gray !important;
 }
 /* HERO SECTION */
 
