@@ -198,13 +198,21 @@ header .navb-items{
 
 .hero-body-text{
     font-family: 'Montserrat', sans-serif;
+    line-height: 175%;
 
+}
+
+.hero-button{
+    font-size: .9em;
+    background: none !important;
+    border: 1px solid #252525;
 }
 
 .hero-lg-image{
     width: 500px;
     height: 600px;
     margin-top: 2vw;
+    border: 1px solid black;
 }
 
 .hero-lg-image img{
