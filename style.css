@@ -177,16 +177,16 @@ header .navb-items{
 .modal-footer a:hover{
  color: gray !important;
 }
+
 /* HERO SECTION */
 
-.col{
-   border: 1px solid blue;
+.container{
+    /* border: solid orange 2px; */
+    height: 86vh;
+    max-width: 80vw !important;
 }
-
-.hero-container{
-    height: 100px;
-    width: 100px;
-    border: red solid 2px;
+.col{
+   /* border: 1px solid blue; */
 }
 
 .hero-header-text{
@@ -208,8 +208,29 @@ header .navb-items{
     border: 1px solid #252525;
 }
 
+.hero-sm-img{
+    width: 200px;
+    height: 200px;
+    
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+}
+
+.hero-sm-img img{
+    border: black solid 1px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-sm-img svg{
+    width: 70%;
+    text-align: center;
+}
+
 .hero-lg-image{
-    width: 500px;
+    width: 80%;
     height: 600px;
     margin-top: 2vw;
     border: 1px solid black;
