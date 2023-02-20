@@ -31,6 +31,7 @@ a:link{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 500;
     color: #252525;
 }
 
@@ -42,13 +43,13 @@ a:link{
 
 header {
     width: 100vw;
-    border-bottom: #252525 1px solid;
+    border-bottom: 1px solid black;
 
 }
 
 header .navb-items{
     width: 100%;
-    height: 68px;
+    height: 72px;
     padding: 0 60px;
     display: flex;
     align-items: center;
@@ -181,12 +182,24 @@ header .navb-items{
 /* HERO SECTION */
 
 .container{
-    /* border: solid orange 2px; */
+    border: solid orange 2px;
     height: 86vh;
     max-width: 80vw !important;
 }
+
+@media(max-width: 991px) {
+    .container{
+        height: 60vh;
+        max-width: 90vw !important;
+    }
+}
+
 .col{
-   /* border: 1px solid blue; */
+   border: 1px solid blue;
+}
+
+.col-lg-6{
+  border: 2px solid blue;
 }
 
 .hero-header-text{
@@ -213,7 +226,7 @@ header .navb-items{
     height: 200px;
     
     display: flex;
-    align-items: bottom;
+    align-items: center;
     justify-content: center;
 }
 
@@ -225,17 +238,34 @@ header .navb-items{
 }
 
 .hero-sm-img svg{
-    width: 70%;
+    width: 65%;
+    height: 75%;
     text-align: center;
+    transform-origin: center;
+    animation: Rotate 6500ms linear infinite;
 }
 
+@keyframes Rotate {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+
 .hero-lg-image{
-    width: 80%;
-    height: 600px;
-    margin-top: 2vw;
+    height: inherit;
     border: 1px solid black;
 }
 
+@media (min-width: 992px) {
+    .hero-lg-image{
+        height: 83vh;
+        width: 80%;
+}
+}
 .hero-lg-image img{
     width: 100%;
     height:100%;
