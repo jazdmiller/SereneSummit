@@ -192,6 +192,11 @@ header .navb-items{
         height: 60vh;
         max-width: 90vw !important;
     }
+
+    .hero-header-text{
+        width: 70% !important;
+        font-size: 2em !important;
+    }
 }
 
 .col{
@@ -203,10 +208,11 @@ header .navb-items{
 }
 
 .hero-header-text{
-    padding-top: 3vw;
+    /* padding-top: 3vw; */
     font-family: 'Classico', serif;
     font-size: 2.3em;
     text-transform: uppercase;
+    width: 95%;
 }
 
 .hero-body-text{
