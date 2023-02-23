@@ -192,11 +192,6 @@ header .navb-items{
         height: 60vh;
         max-width: 90vw !important;
     }
-
-    .hero-header-text{
-        width: 70% !important;
-        font-size: 2em !important;
-    }
 }
 
 .col{
@@ -215,9 +210,21 @@ header .navb-items{
     width: 95%;
 }
 
+@media(max-width: 767px){
+    .hero-header-text{
+        width: 70% !important;
+        font-size: 2em !important;
+    }
+
+    .hero-body-text{
+        width: 100% !important;
+    }
+}
+
 .hero-body-text{
     font-family: 'Montserrat', sans-serif;
     line-height: 175%;
+    width: 75%;
 
 }
 
