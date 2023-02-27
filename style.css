@@ -37,8 +37,8 @@ a:link{
 
 #nav-logo{
     font-size: 2.5em;
-    font-family: 'Gallery Modern', serif;
-    text-transform: none;
+    font-family: 'Hunter', serif;
+    text-transform: uppercase;
 }
 
 header {
@@ -182,24 +182,26 @@ header .navb-items{
 /* HERO SECTION */
 
 .container{
-    border: solid orange 2px;
+    /* border: solid orange 2px; */
     height: 86vh;
     max-width: 80vw !important;
+    margin-top: 5%;
 }
 
 @media(max-width: 991px) {
     .container{
         height: 60vh;
         max-width: 90vw !important;
+        margin-top: 1%;
     }
 }
 
 .col{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
 }
 
 .col-lg-6{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .hero-header-text{
@@ -211,13 +213,27 @@ header .navb-items{
 }
 
 @media(max-width: 767px){
+
+    #nav-logo{
+        font-size: 1.7em;
+    }
+    
     .hero-header-text{
-        width: 70% !important;
-        font-size: 2em !important;
+        width: 60% !important;
+        font-size: 1.5em !important;
     }
 
     .hero-body-text{
         width: 100% !important;
+    }
+
+    .hero-button{
+        width: 100% !important;
+        background: #DCE0D9 !important;
+    }
+    .mobile-svg svg {
+      transform-origin: center;
+      animation: Rotate 6500ms linear infinite;
     }
 }
 
@@ -230,8 +246,9 @@ header .navb-items{
 
 .hero-button{
     font-size: .9em;
-    background: none !important;
+    background: none ;
     border: 1px solid #252525;
+    width: 50%;
 }
 
 .hero-sm-img{
@@ -275,8 +292,8 @@ header .navb-items{
 
 @media (min-width: 992px) {
     .hero-lg-image{
-        height: 83vh;
-        width: 80%;
+        height: 85vh;
+        width: 100%;
 }
 }
 .hero-lg-image img{
