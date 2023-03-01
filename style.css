@@ -2,6 +2,8 @@
 html body {
     background-color: #FBF6EF;
     margin:0;
+    height: 100%;
+
 }
 
  /* HEADER/NAV SECTION */
@@ -302,3 +304,19 @@ header .navb-items{
     object-fit: cover;
 }
 /* END HERO SECTION */
+
+/* QUOTES SECTION */
+
+.quote-container{
+    margin-top: 5%;
+}
+
+/* ABOUT SECTION */
+
+.about-label{
+    width: 100vw;
+    border-bottom: 1px solid #252525;
+    border-top: 1px solid #252525;
+    text-align: center;
+    font-size: 1.5em;
+}
