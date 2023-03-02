@@ -323,8 +323,8 @@ header .navb-items{
 }
 
 .mobile-about-img-1{
-    width: 150px;
-    height: 250px;
+    width: 15em;
+    height: 18em;
     border: 1px solid black;
 }
 
@@ -335,8 +335,8 @@ header .navb-items{
 }
 
 .mobile-about-img-2{
-    width: 150px;
-    height: 200px;
+    width: 13em;
+    height: 13em;
     border: 1px solid black;
 }
 
@@ -348,4 +348,8 @@ header .navb-items{
 
 .mobile-about-text{
     font-family: 'Montserrat', sans-serif;
+}
+
+.row.mobile-img-2{
+    margin-top: -10%;
 }
