@@ -346,6 +346,6 @@ header .navb-items{
     object-fit: cover;
 }
 
-.row.mobile-img-2{
-    margin-top: 10%;
+.mobile-about-text{
+    font-family: 'Montserrat', sans-serif;
 }
