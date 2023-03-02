@@ -319,4 +319,33 @@ header .navb-items{
     border-top: 1px solid #252525;
     text-align: center;
     font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-about-img-1{
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.mobile-about-img-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile-about-img-2{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.mobile-about-img-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.row.mobile-img-2{
+    margin-top: 10%;
 }
