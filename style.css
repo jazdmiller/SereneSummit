@@ -375,6 +375,7 @@ hr{
 
 .service-box{
     border: 1px solid black;
+    height: 30em;
 }
 
 .service-row{
@@ -390,4 +391,26 @@ hr{
 
 .mind-text{
     border-top: #000 1px solid;
+    background-color: #FBF6EF;
+}
+
+.mind-text h4{
+    padding-top: 8%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.mind-text p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: .8em;
+    margin: 0;
+}
+
+.mind-text a{
+    text-decoration: underline;
+    color: #000;
 }
