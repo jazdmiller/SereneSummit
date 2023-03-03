@@ -208,7 +208,7 @@ header .navb-items{
 
 .hero-header-text{
     /* padding-top: 3vw; */
-    font-family: 'Classico', serif;
+    font-family: 'Hunter', serif;
     font-size: 2.3em;
     text-transform: uppercase;
     width: 95%;
@@ -218,6 +218,7 @@ header .navb-items{
 
     #nav-logo{
         font-size: 1.7em;
+        font-weight: 600;
     }
     
     .hero-header-text{
@@ -352,4 +353,41 @@ header .navb-items{
 
 .row.mobile-img-2{
     margin-top: -10%;
+}
+
+/* SERVICES SECTION */
+.mind {
+    background-color: #DCE0D9;
+    max-width: 100vw !important;
+}
+
+.mind h2{
+    margin: 0;
+    padding: 0 7%;
+    font-family: 'Hunter', serif;
+}
+
+hr{
+    width: 15%;
+    display: inline-block;
+    opacity: 1 !important;
+}
+
+.service-box{
+    border: 1px solid black;
+}
+
+.service-row{
+    height: 65%;
+}
+
+.service-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+}
+
+.mind-text{
+    border-top: #000 1px solid;
 }
