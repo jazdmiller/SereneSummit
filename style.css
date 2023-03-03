@@ -448,3 +448,10 @@ hr{
 .soul-text{
     background-color: #FBF6EF;
 }
+
+/* FOOTER SECTION */
+.footer-nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5%;
+}
