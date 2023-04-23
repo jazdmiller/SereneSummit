@@ -323,6 +323,33 @@ header .navb-items{
     font-family: 'Montserrat', sans-serif;
 }
 
+.about-text-section{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-header{
+    font-family: 'Hunter', serif;
+    text-transform: uppercase;
+    font-size: 1.9em;
+}
+
+
+.desktop-about-container{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.about-img{
+    height: 80vh;
+}
+
+.about-img img{
+    height: 100%;
+    width: 100%;
+}
+
 .mobile-about-img-1{
     width: 15em;
     height: 18em;
@@ -454,4 +481,13 @@ hr{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 5%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 991px){
+    .desktop-about-container{
+        display: none;
+    }
 }
