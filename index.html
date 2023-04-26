@@ -15,12 +15,14 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Home</title>
   </head>
+
   <body>
     <header>
       <div class="container-fluid">
-        <div
+        <div data-aos="fade-down" data-aos-duration="800"
           class="navb-items p-1 pt-3 pb-3 justify-content-lg-evenly justify-content-between"
         >
           <div class="d-none d-lg-flex justify-content-end nav-container">
@@ -104,7 +106,7 @@
     <div class="container p-1 p-lg-0 h-auto">
       <div class="row">
         <div
-          class="col-lg-6 order-2 order-lg-1 p-2 d-flex align-items-start flex-column"
+          class="left-hero-col col-lg-6 order-2 order-lg-1 p-2 d-flex align-items-start flex-column"
         >
           <div
             class="col d-flex mt-3 mt-md-0 p-2 p-md-0 justify-content-between"
@@ -477,7 +479,8 @@
       </div>
 
       <!-- QUOTE SECTION -->
-      <div class="d-none d-md-flex row my-4 quote-container">
+      <div data-aos="fade-up"
+      data-aos-duration="700" class="d-none d-md-flex row quote-container">
         <div class="col quote-1">
           "I came to this wellness retreat feeling stressed and overwhelmed, but
           I left feeling rejuvenated and refreshed. It was the perfect escape
@@ -505,10 +508,12 @@
           </div>
         </div>
         <div class="col-6 about-text-section justify-content-center my-auto">
-          <div class="row about-header justify-content-center">
+          <div data-aos="fade-up"
+          data-aos-duration="500" class="row about-header justify-content-center">
             Unwind and Recharge at Our Blissful Retreat
           </div>
-          <div class="row justify-content-center pt-4">
+          <div data-aos="fade-up"
+          data-aos-duration="600" class="row justify-content-center pt-4">
             Nestled amidst the breathtaking beauty of lush forests and majestic
             mountain peaks, our haven of tranquility offers an unparalleled
             escape from the chaos of everyday life. Immerse yourself in a
@@ -516,7 +521,8 @@
             holistic wellness through expertly curated programs, workshops, and
             activities.
           </div>
-          <div class="row justify-content-center pt-4">
+          <div data-aos="fade-up"
+          data-aos-duration="700" class="row justify-content-center pt-4">
             Our diverse range of offerings includes yoga, meditation,
             mindfulness workshops, rejuvenating spa treatments, and
             farm-to-table cuisine that nourishes both body and soul. Embark on a
@@ -530,11 +536,11 @@
     </div>
 
     <!-- ABOUT MOBILE  -->
-    <div class="w-100 about-label mt-5 py-2">ABOUT</div>
+    <div class="d-lg-none w-100 about-label mt-5 py-2">ABOUT</div>
 
     <div class="row d-lg-none justify-content-center mt-5">
       <div class="col-10 d-flex justify-content-end">
-        <div class="mobile-about-img-1">
+        <div data-aos="fade-up" data-aos-duration="600" class="mobile-about-img-1">
           <img
             src="./images/pexels-michael-block-3225531.jpg"
             alt="woman swimming in luxurious pool at wellness retreat"
@@ -543,9 +549,9 @@
       </div>
     </div>
 
-    <div class="row justify-content-center mobile-img-2 mb-2">
+    <div class="d-lg-none row justify-content-center mobile-img-2 mb-2">
       <div class="col-10">
-        <div class="mobile-about-img-2">
+        <div data-aos="fade-up" data-aos-duration="600" class="mobile-about-img-2">
           <img
             src="./images/pexels-content-pixie-2736543 (1).jpg"
             alt="lounge chair"
@@ -554,23 +560,26 @@
       </div>
     </div>
 
-    <div class="row my-5 justify-content-center">
+    <div data-aos="fade-up" data-aos-duration="600" class="d-lg-none row my-5 justify-content-center">
       <div class="col-10 mobile-about-text p-0">
         <p class="mb-0">
-          Nestled in the heart of pristine nature, our wellness retreat offers a
-          sanctuary for those seeking to restore their mind, body, and spirit.
-          Our tranquil surroundings and expertly curated programs provide the
-          perfect escape from the hustle and bustle of modern life.
+          Nestled amidst the breathtaking beauty of lush forests and majestic
+          mountain peaks, our haven of tranquility offers an unparalleled
+          escape from the chaos of everyday life. Immerse yourself in a
+          nurturing environment that promotes inner peace, balance, and
+          holistic wellness through expertly curated programs, workshops, and
+          activities.
         </p>
       </div>
     </div>
 
     <!-- ***SERVICES SECTION*** -->
-    <div class="w-100 about-label mt-5 py-2">SERVICES</div>
+    <div class="d-lg-none w-100 about-label mt-5 py-2">SERVICES</div>
 
     <div class="container mind m-0 h-auto pb-5">
       <div class="row">
-        <div class="col my-5 d-flex justify-content-center align-items-center">
+        <div data-aos="fade-up"
+        data-aos-duration="600" class="col my-5 d-flex justify-content-center align-items-center">
           <hr />
           <h2>MIND</h2>
           <hr />
@@ -579,14 +588,14 @@
 
       <div class="row service-row">
         <div class="col d-flex justify-content-center">
-          <div class="service-box w-75">
+          <div class="service-box">
             <div class="row h-50 w-100 m-0 service-img">
               <img
                 src="./images/pexels-elina-fairytale-3822583.jpg"
                 alt="woman meditating at serene summit retreat"
               />
             </div>
-            <div class="row h-50 service-text mind-text px-3 w-100 m-0">
+            <div class="row h-50 service-text mind-text w-100 m-0">
               <h4>HARMONY HAVEN</h4>
               <p>
                 This mindful meditation package at the wellness retreat aims to
@@ -602,7 +611,8 @@
 
     <div class="container body m-0 h-auto pb-5">
       <div class="row">
-        <div class="col my-5 d-flex justify-content-center align-items-center">
+        <div data-aos="fade-up"
+        data-aos-duration="600" class="col my-5 d-flex justify-content-center align-items-center">
           <hr />
           <h2>BODY</h2>
           <hr />
@@ -611,14 +621,14 @@
 
       <div class="row service-row">
         <div class="col d-flex justify-content-center">
-          <div class="service-box w-75">
+          <div class="service-box">
             <div class="row h-50 w-100 m-0 service-img">
               <img
                 src="./images/pexels-yan-krukau-8436691.jpg"
                 alt="woman practicing yoga at serene summit retreat"
               />
             </div>
-            <div class="row h-50 service-text body-text px-3 w-100 m-0">
+            <div class="row h-50 service-text body-text w-100 m-0">
               <h4>YOGA BLISS</h4>
               <p>
                 This package offers opportunities to learn about mindfulness
@@ -633,7 +643,8 @@
 
     <div class="container soul m-0 h-auto pb-5">
       <div class="row">
-        <div class="col my-5 d-flex justify-content-center align-items-center">
+        <div data-aos="fade-up"
+        data-aos-duration="600" class="col my-5 d-flex justify-content-center align-items-center">
           <hr />
           <h2>SOUL</h2>
           <hr />
@@ -642,14 +653,14 @@
 
       <div class="row service-row">
         <div class="col d-flex justify-content-center">
-          <div class="service-box w-75">
+          <div class="service-box">
             <div class="row h-50 w-100 m-0 service-img">
               <img
                 src="./images/jernej-graj-rlNibgIqi4o-unsplash.jpg"
                 alt="woman practicing yoga at serene summit retreat"
               />
             </div>
-            <div class="row h-50 service-text soul-text px-3 w-100 m-0">
+            <div class="row h-50 service-text soul-text w-100 m-0">
               <h4>SOULFUL SERENITY</h4>
               <p>
                 This package is perfect for those who are looking to slow down,
@@ -692,5 +703,9 @@
       src="https://kit.fontawesome.com/fb8647548c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

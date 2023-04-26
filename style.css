@@ -291,6 +291,17 @@ header .navb-items{
 .hero-lg-image{
     height: inherit;
     border: 1px solid black;
+    animation: fadeInDelay 1.5s;
+}
+
+@keyframes fadeInDelay {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.left-hero-col{
+    animation: fadeIn 1.5s;
 }
 
 @media (min-width: 992px) {
@@ -309,7 +320,9 @@ header .navb-items{
 /* QUOTES SECTION */
 
 .quote-container{
-    margin-top: 5%;
+    margin-top: 7% !important;
+    margin-bottom: 7% !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ABOUT SECTION */
@@ -343,7 +356,14 @@ header .navb-items{
 
 .about-img{
     height: 80vh;
+    animation: fadeIn 1s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .about-img img{
     height: 100%;
@@ -403,6 +423,7 @@ hr{
 .service-box{
     border: 1px solid black;
     height: 30em;
+    width: 75%;
 }
 
 .service-row{
@@ -422,6 +443,9 @@ hr{
 
 .service-text{
     border-top: #000 1px solid;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .service-text h4{
@@ -430,12 +454,10 @@ hr{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.3em;
-    text-align: left;
 }
 
 .service-text p{
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
     font-size: .8em;
     margin: 0;
 }
@@ -489,5 +511,11 @@ hr{
 @media(max-width: 991px){
     .desktop-about-container{
         display: none;
+    }
+}
+
+@media(min-width: 991px){
+    .service-box{
+        width: 50% !important;
     }
 }
