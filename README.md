@@ -1,5 +1,5 @@
 # SereneSummit
-Wellness retreat landing page development.
+Wellness retreat landing page development. <br>
 [View Live Site](https://serenesummmit.netlify.app/)
 
 ## About 
