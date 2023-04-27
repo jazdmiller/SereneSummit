@@ -1,6 +1,6 @@
 # SereneSummit
-Wellness retreat landing page development
-
+Wellness retreat landing page development.
+![View Live Site](serenesummmit.netlify.app)
 
 ## About 
 Serene Summit is a wellness retreat and the purpose of this landing page is to inform users of the various packages and services being offered.
